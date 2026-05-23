@@ -91,7 +91,6 @@ func expect(serial *Serial, expects []string) (expectIndex int) {
 		previousStr = str
 	}
 
-	panic("unreachable")
 }
 
 func expectSend(serial *Serial, expects []string, sends []string) (whichExpect string) {
